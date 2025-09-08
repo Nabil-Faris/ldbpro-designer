@@ -1,6 +1,7 @@
 {
   "name": "ldbpro-designer",
   "private": true,
+  "homepage": "https://nabil-faris.github.io/ldbpro-designer",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
