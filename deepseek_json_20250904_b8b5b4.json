@@ -1,0 +1,101 @@
+{
+  "designSystem": {
+    "name": "Black Experience Integration",
+    "style": {
+      "colorPalette": {
+        "primary": "#000000",
+        "secondary": "#6078.76",
+        "accent": "#ffffff",
+        "neutral": "#f8f8f8",
+        "dataVisualization": ["#80%", "#48%"]
+      },
+      "typography": {
+        "headings": {
+          "fontFamily": "Sans-serif",
+          "weights": ["bold", "semibold"],
+          "sizes": ["large", "x-large", "xx-large"]
+        },
+        "body": {
+          "fontFamily": "Sans-serif",
+          "weights": ["regular", "medium"],
+          "sizes": ["small", "medium"]
+        },
+        "dataDisplay": {
+          "fontFamily": "Sans-serif",
+          "weights": ["bold"],
+          "sizes": ["x-large", "xx-large"]
+        }
+      },
+      "spacing": {
+        "sectionPadding": "80px-120px",
+        "elementMargin": "20px-40px",
+        "contentPadding": "30px-50px"
+      }
+    },
+    "layout": {
+      "gridSystem": "12-column responsive grid",
+      "sectionStructure": [
+        "heroSection",
+        "featureShowcase",
+        "dataMetrics",
+        "testimonialQuote",
+        "statisticsGrid",
+        "ctaSection",
+        "featureBreakdown",
+        "footer"
+      ],
+      "cardComponents": {
+        "dataCards": "rounded corners with shadow",
+        "featureCards": "minimal border, clean spacing",
+        "statCards": "icon + headline + description pattern"
+      }
+    },
+    "components": {
+      "navigation": {
+        "style": "minimal, text-based",
+        "elements": ["Earnings", "Groups", "Transactions"]
+      },
+      "dataDisplay": {
+        "metrics": {
+          "style": "large bold numbers with percentage indicators",
+          "layout": "vertical stack with labels"
+        },
+        "charts": {
+          "style": "clean bar charts with gradient fills",
+          "axis": "minimal labeling"
+        }
+      },
+      "CTAs": {
+        "primary": {
+          "style": "dark background, light text, rounded corners",
+          "elements": ["Start Free Trial", "Buy Template"]
+        },
+        "secondary": {
+          "style": "email input + button combination",
+          "layout": "horizontal arrangement"
+        }
+      },
+      "testimonials": {
+        "style": "quote format with attribution",
+        "layout": "centered text with award badges"
+      }
+    },
+    "patterns": {
+      "repetition": {
+        "earningsDisplay": "recurring component with consistent styling",
+        "percentageIndicators": "consistent color coding and positioning"
+      },
+      "whitespaceUsage": "generous padding around sections and elements",
+      "visualHierarchy": "bold headlines → supporting text → data points"
+    },
+    "contentStrategy": {
+      "headlineStyle": "benefit-driven, direct address",
+      "bodyCopy": "concise, feature-focused with user benefits",
+      "dataPresentation": "monetary values, percentages, and counts"
+    },
+    "mobileConsiderations": {
+      "stackingBehavior": "vertical reorganization of content",
+      "touchTargets": "appropriately sized buttons and inputs"
+    }
+  }
+}
